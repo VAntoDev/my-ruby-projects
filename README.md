@@ -1,5 +1,5 @@
 # my-ruby-projects
-My Ruby projects, from The Odin Project 
+My Ruby projects, from The Odin Project.
 
 <h3>Caesar Cipher:</h3>
 Implement a #caesar_cipher method that takes in a string and the shift factor and then outputs the modified string.

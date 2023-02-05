@@ -1,4 +1,4 @@
-def caesar_cypher(string, key = 0)
+def caesar_cipher(string, key = 0)
   word = ""
   string.codepoints.each do | num |
     #Check if the codepoint is a lowercase or upcase letter, otherwise skip to the next iteration
@@ -36,6 +36,8 @@ def caesar_cypher(string, key = 0)
   p word
 end
 
-caesar_cypher("hi, my key is 23!", 23) #=> "ef, jv hbv fp 23!"
+caesar_cipher("What a string!", 5) #=> "Bmfy f xywnsl!"
 
-caesar_cypher("Wooow my Key is 763! =)", 763) #=> "Fxxxf vh Tnh rb 763! =)"
+caesar_cipher("hi, my key is 23!", 23) #=> "ef, jv hbv fp 23!"
+
+caesar_cipher("Wooow my Key is 763! =)", 763) #=> "Fxxxf vh Tnh rb 763! =)"

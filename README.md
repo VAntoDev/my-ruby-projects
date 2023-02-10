@@ -9,3 +9,6 @@ Implement a method #substrings that takes a word as the first argument and then 
 
 <h3>Stock Prices:</h3>
 Implement a method #stock_picker that takes in an array of stock prices, one for each hypothetical day. It should return a pair of days representing the best day to buy and the best day to sell. Days start at 0.
+
+<h3>Bubble Sort:</h3>
+Build a method #bubble_sort that takes an array and returns a sorted array. It must use the bubble sort methodology (using #sort would be pretty pointless, wouldn’t it?).
